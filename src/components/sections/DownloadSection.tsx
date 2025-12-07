@@ -8,7 +8,7 @@ const DownloadSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
-  const downloadLink = "https://drive.google.com/drive/folders/1dF6TnBUFLDfNZPsdwyMUJxhqi-LweDBc";
+  const downloadLink = "https://drive.google.com/drive/folders/1dF6TnBUFLDfNZPsdwyMUJxhqi-LweDBc?usp=sharing";
 
   return (
     <section id="download" className="py-24 relative overflow-hidden">
