@@ -17,19 +17,19 @@ const RoadmapSection = () => {
       icon: Code,
       title: "Prototype",
       description: "Core functionality development",
-      status: "current",
+      status: "completed",
     },
     {
       icon: Target,
       title: "MVP",
       description: "Minimum viable product release",
-      status: "upcoming",
+      status: "completed",
     },
     {
       icon: Brain,
       title: "Integrating AI",
       description: "Advanced ML implementation",
-      status: "upcoming",
+      status: "current",
     },
     {
       icon: Rocket,
@@ -66,7 +66,7 @@ const RoadmapSection = () => {
             <div className="absolute top-16 left-0 right-0 h-1 bg-border rounded-full">
               <motion.div
                 initial={{ width: 0 }}
-                animate={isInView ? { width: "30%" } : {}}
+                animate={isInView ? { width: "70%" } : {}}
                 transition={{ duration: 1.5, delay: 0.5 }}
                 className="h-full bg-gradient-to-r from-neon-cyan to-neon-purple rounded-full"
               />
